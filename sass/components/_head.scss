@@ -1,0 +1,35 @@
+.header{
+    background-blend-mode: screen;
+    background-image:linear-gradient(to right, $color-pearl, $color-dark-blue), url(https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7325bf88e191e71e966ec0b260d2d91b&auto=format&fit=crop&w=1050&q=80);
+    background-size:cover;
+    padding:27rem 0;
+    background-position: center;
+    clip-path:polygon(0 0, 100% 0, 100% 88%, 0 100%);
+    -webkit-clip-path:polygon(0 0, 100% 0, 100% 92%, 0 100%);
+    position: relative;
+
+
+&__block{
+    display:inline-block;
+    position:absolute;
+    color:$color-white;
+    width:40rem;
+    top:0;
+    left:60%;
+h2{
+    font-size:6.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top:3rem;
+}
+h3{
+    font-size:4rem;
+    font-weight: 400;
+    margin-top:3rem;
+    margin-bottom:1.5rem;
+}
+
+}
+
+ }

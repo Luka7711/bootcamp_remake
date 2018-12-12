@@ -1,0 +1,33 @@
+
+html{
+    font-size:62.5%;
+
+
+
+@include respond(phone){
+    font-size:50%;
+}
+
+
+@include respond(tab-port){
+    font-size:50%;
+}
+
+
+@include respond(tab-land){
+    font-size:56.25%;
+}
+
+
+@include respond(big-desktop){
+    font-size:75%;
+}
+
+}
+body{
+    margin:0 auto;
+    font-family:"Lato";
+    max-width:100%;
+ 
+}
+

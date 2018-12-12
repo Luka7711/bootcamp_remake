@@ -1,0 +1,51 @@
+
+.bootcamp__plans{
+width:151.92rem;;
+height:50rem;
+text-align: center;
+color:$color-white;
+font-size:2rem;
+text-transform: uppercase;
+font-family: "Libre Franklin";
+
+
+&:after{
+    content:"";
+    clear:both;
+   display: table;
+}
+
+&__x{
+    position:relative;
+    transition: .4s ease;
+&:hover{
+    color:$color-pearl;
+}
+&__general{
+    position:absolute;
+    top:40%;
+    left:10%;
+}
+}
+
+&__1{
+width:75.5rem;
+height:50rem;
+float:left;
+background-image:linear-gradient(to right, rgba($color-pearl, .4), rgba($color-dark-blue, .4)),url(https://cdn2.codingdojo.com/new_design_image/onsite_bootcamp/onsite-bootcamp-splash.jpg);
+background-size:cover;
+margin-left:1px;
+clip-path: polygon(0 7%, 100% 17%, 100% 100%, 0 100%);
+}
+
+&__2{
+    width:75.96rem;
+    height:50rem;
+    float:right;
+    background-image:linear-gradient(to right, rgba($color-pearl, .5), rgba($color-dark-blue, .5)), url(/img/img-2.jpeg);
+    background-size: cover;
+    clip-path: polygon(0 17%, 100% 7%, 100% 100%, 0 100%)
+}
+}
+
+

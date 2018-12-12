@@ -1,0 +1,82 @@
+.bootcamp__advantage__container{
+    padding:4rem 10rem;
+    background-color:#25242F;
+    height:100rem;
+
+.description__container{
+    color:$color-white;
+    font-size: 1.7rem;
+    width:80rem;
+    margin:0 auto;
+    line-height:2.4rem;
+    font-weight: 350;
+    text-align: center;
+h3{
+    font-size: 4.5rem;
+}
+}
+
+.bootcamp__content{
+margin-top:5rem;
+text-align: center;
+}
+.left__container{
+    width:80rem;
+    color:$color-white;
+    text-align:left;
+    display: inline-block;
+   vertical-align: top;
+
+.bootcamp__advantage__block{
+        width:34.5rem;
+        height:34rem;
+        border:1px solid $color-white;
+        margin-bottom:7rem;
+        margin-right:1px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 4rem;
+        }
+}
+}
+
+.right__container{
+    color:#444;
+    width:40.92rem;
+    display: inline-block;
+    height:75.4rem;
+    background-color:$color-white-original;
+    text-align: left;
+
+img{
+    width:100%;
+    height:auto;
+}
+
+
+.icon__search{
+    font-size:8rem;
+    -webkit-background-clip:text;
+    color:transparent;
+    background-color:$color-light-blue;
+}
+}
+.description__content{
+    padding:2rem 4rem;
+    font-size: 1.6rem;
+    line-height:2.4rem;
+    position:relative;
+    h3{
+        font-weight: 800;
+    }
+.icon__block{
+    position:absolute;
+    top:-2.5rem;
+    left:1rem;
+    font-size: 5rem;
+    -webkit-background-clip:text;
+    color:transparent;
+    background-color:$color-light-blue;
+    z-index:10;
+}
+}
